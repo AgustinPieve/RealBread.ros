@@ -1,0 +1,11 @@
+$colorbg: sienna;
+$colorbtn: SaddleBrown;
+
+body{
+	background-color: $colorbg;
+}
+
+.btn-primary{
+	background-color: $colorbtn;
+	border-color: $colorbtn;
+}

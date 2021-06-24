@@ -1,28 +1,6 @@
-.transition{
-	transition: 1s;
-}
+body {
+  background-color: sienna; }
 
-.transition:hover{
-	transform: translateY(-10px);
-}
-.moveIcon{
-	transition: 1s;
-}
-.moveIcon:hover{
-	transform: translateX(10px);
-}
-.w-100{
-	height: fit-content;
-}
-#color{
-	background-color: #781d00;
-}
-.container-fluid{
-	padding-left:0px;padding-right: 0px;
-}
-@media only screen and (max-width: 768px){
-
-	#color{
-	background-color: #781d00;
-
-}
+.btn-primary {
+  background-color: SaddleBrown;
+  border-color: SaddleBrown; }
