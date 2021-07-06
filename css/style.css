@@ -1,6 +1,46 @@
 body {
-  background-color: sienna; }
+  background-color: #FFEBCD; }
 
 .btn-primary {
   background-color: SaddleBrown;
   border-color: SaddleBrown; }
+
+.transition {
+  transition: 1s; }
+
+.transition:hover {
+  transform: translateY(-10px); }
+
+@keyframes movimiento {
+  0% {
+    transform: translateY(-20px); }
+  50% {
+    transform: translateX(20px); }
+  100% {
+    transform: translate(0px, 0px); } }
+
+.flexCards {
+  display: flex;
+  justify-content: center; }
+
+h1 {
+  display: flex;
+  justify-content: center; }
+
+.flexText {
+  display: flex;
+  justify-content: center; }
+
+.fixCarousel {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  overflow: visible; }
+
+@media only screen and (max-width: 768px) {
+  .col-sm-12 {
+    display: flex;
+    justify-content: center; } }
+
+.img-fluid {
+  opacity: 0.6; }

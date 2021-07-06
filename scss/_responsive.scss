@@ -1,0 +1,29 @@
+$flex: flex;
+
+.flexCards{
+	display: $flex;
+	justify-content: center;
+}
+
+h1{
+	display: $flex;
+	justify-content: center;
+}
+
+.flexText{
+	display: $flex;
+	justify-content: center;
+}
+.fixCarousel{
+	display: $flex;
+	justify-content: center;
+	width: 50%;
+	overflow: visible;
+}
+
+@media only screen and (max-width: 768px){
+	.col-sm-12{
+	display: $flex;
+	justify-content: center;
+ }
+}
